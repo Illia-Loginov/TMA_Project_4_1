@@ -3,3 +3,4 @@
 - Press **"Get All"** to get all posts
 - Title of each post can be edited by typing a new title in the input field and pressing **"Edit"**. After that, the text **"Edit"** will change to **"..."** until response from the API is received, then the text will change back to **"Edit"**
 - The state of the entity list (including changes to the post titles) is saved in the local storage 
+> Available at https://tma-4-1.netlify.app/
