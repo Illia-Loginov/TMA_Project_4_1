@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFFFF3;
+    color: #030301;
+}
+
+.header, .footer {
+    background-color: #D78A76;
+    color: #FFFFF3;
+}
+
+.header__heading {
+    margin: 0;
+    padding: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 0.25rem;
+}
+
+.main__heading {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.input {
+    padding: 0.5em 0.75em;
+    font-size: 1rem;
+    background-color: #D78A76;
+    color: #FFFFF3;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::placeholder {
+    color: #FFFFEB;
+    font-weight: 100;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #DFA090;
+}
+
+.list {
+    padding: 0;
+    margin: 1rem 0;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+}
+
+.list__item {
+    max-width: 600px;
+}
+
+.post {
+    border: 2px solid #247BA0;
+    padding: 0;
+    border-radius: 0.25rem;
+    background-color: #247BA0;
+}
+
+.post__title {
+    margin: 0;
+    padding: 0.75rem;
+
+    display: flex;
+    gap: 0.25rem;
+}
+
+.post__input {
+    flex: 1;
+    background-color: #EEF7FB;
+    color: #247BA0;
+}
+
+.post__btn {
+    background-color: #EEF7FB;
+    color: #247BA0;
+}
+
+.post__btn:hover {
+    background-color: #BDE0EF;
+}
+
+.post__body {
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    background-color: #EEF7FB;
+}
+
+.post__info {
+    margin: 0;
+    padding: 0 0.75rem 0.5rem;
+    font-size: 0.875rem;
+    background-color: #EEF7FB;
+    color: #247BA0;
+}
+
+.footer__heading {
+    margin: 0;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: right;
+}
